@@ -58,7 +58,3 @@ The objective of this project is to strengthen understanding of relational datab
 - MySQL
 - SQL (Structured Query Language)
 - Relational Database Model
-
----
-
-## 📁 Repository Structure
