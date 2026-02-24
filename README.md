@@ -1,69 +1,64 @@
-# 📘 Database Management System (DBMS)
+# 📘 Database Management System (DBMS) – SQL Implementation
 
-## 📌 Overview
-This repository contains theoretical concepts and SQL queries related to Database Management Systems (DBMS). It covers fundamental database concepts, relational data models, keys, relationships, and MySQL queries.
+## 🔍 Project Overview
+This repository demonstrates practical implementation of core Database Management System (DBMS) concepts using MySQL. It includes database schema design, table creation, constraints, data manipulation queries, joins, subqueries, aggregate functions, and relational modeling.
+
+The objective of this project is to strengthen understanding of relational database architecture and structured query execution in a real-world environment.
 
 ---
 
-## 📖 Contents
+## 🧠 Concepts Covered
 
-### 1️⃣ Introduction to Database
-- Definition of Database
-- Key Characteristics of Databases
-- Importance of Databases
-- Persistent Storage
-- Concurrent Access
-- Data Security & Integrity
+- Database & DBMS Fundamentals
+- Relational Data Model
+- Primary Key & Foreign Key Constraints
+- Data Types and Table Design
+- CRUD Operations (Create, Read, Update, Delete)
+- Filtering & Sorting
+- Aggregate Functions (COUNT, AVG, SUM)
+- GROUP BY & HAVING
+- Subqueries
+- INNER JOIN
+- Multi-database handling
 
-### 2️⃣ Database Management System (DBMS)
-- Definition of DBMS
-- Role of DBMS
-- Types of DBMS:
-  - Relational DBMS (RDBMS)
-  - NoSQL DBMS
-  - In-Memory DBMS
+---
 
-### 3️⃣ Relational Data Model
-- Tables (Relations)
-- Rows (Records)
-- Columns (Attributes)
-- Primary Key
-- Foreign Key
-- Relationships:
-  - One-to-One (1:1)
-  - One-to-Many (1:N)
-  - Many-to-Many (M:N)
+## 🗂 Database Modules Implemented
 
-### 4️⃣ MySQL
-- Introduction to MySQL
-- SQL Queries
-- Data Types
-- Table Creation
-- Insert, Update, Delete
-- Constraints
-- Joins and Subqueries
+### 1️⃣ Company Database
+- Employee table
+- Salary-based filtering
+- Department analysis
+- Subquery using average salary
+
+### 2️⃣ Bookstore Database
+- Book inventory management
+- NULL handling
+- BETWEEN, LIKE operators
+- Category filtering
+
+### 3️⃣ Store Database
+- Product inventory system
+- Comparison operators
+- Stock management logic
+
+### 4️⃣ Aggregate & Grouping Module
+- Department-wise employee count
+- Average salary calculation
+- HAVING clause filtering
+
+### 5️⃣ Join Implementation
+- Authors & Books relational mapping
+- INNER JOIN between tables
 
 ---
 
 ## 🛠 Technologies Used
+
 - MySQL
-- SQL
+- SQL (Structured Query Language)
 - Relational Database Model
 
 ---
 
-## 🎯 Purpose of This Repository
-This repository was created for academic learning and practice purposes as part of the DBMS course. It demonstrates understanding of database concepts and practical SQL query implementation.
-
----
-
-## 🚀 How to Use
-1. Install MySQL.
-2. Import the provided `.sql` file.
-3. Execute queries in MySQL Workbench or Command Line.
-
----
-
-## 👨‍💻 Author
-Harsh  
-BCA Student  
+## 📁 Repository Structure
